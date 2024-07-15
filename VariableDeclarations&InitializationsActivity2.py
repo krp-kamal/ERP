@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 v1 = 10
 v2 = 2.0
 v3 = 1.2+3.4j
