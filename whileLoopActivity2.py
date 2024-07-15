@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 while True:
     answers = input('Enter yes or no: ')
     if answers.lower() == 'yes':
