@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 #collects information from the user#
 Name = input('Enter your name: ')
 Age = input('Enter your age: ')
