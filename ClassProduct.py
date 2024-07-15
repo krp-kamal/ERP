@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 class Product:
     product_id = 0
     product_name = ''
