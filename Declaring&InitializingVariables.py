@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 filedetails = 'consists of users data'
 filenames = 'Filename.rog'
 filesize = 104
