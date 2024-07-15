@@ -1,4 +1,8 @@
- # reads every line in the file.#
+'''
+Author: Ms Rya
+Version: 3.10
+'''
+# reads every line in the file.#
 robj= open('/Users/kamalperumal/Downloads/r3.log','r')
 print(robj.readline())
 print(robj.readline())
