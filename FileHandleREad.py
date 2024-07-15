@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 fname = input('Enter a filename: ')
 f = open(fname)
 count = 0
