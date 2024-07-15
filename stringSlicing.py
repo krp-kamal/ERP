@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 S1 = 'root:x:bin:bash'
 print(S1[3])
 print(S1[-1])
