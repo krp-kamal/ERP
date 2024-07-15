@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 # Integer to String#
 num = 30
 num_str = str(num)
