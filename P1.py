@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 product_A = {}
 
 while True:
