@@ -2,13 +2,16 @@
 Author: Ms Rya
 Version: 3.10
 '''
-server_details = {}
-# Adding individual key-value pairs
-server_details["Unix-Server"] = '10.20.30.40'
-server_details["Linux-Server"] = '10.20.55.45'
-server_details["Winx-Server"] = '10.45.65.45'
-server_details["Aix-Server"] = '10.42.98.78'
 
-for key in server_details:
-    value = server_details[key]
-    print("Alias:", key, "\n IP-Address:", value)
+def print_server_details(server_details):
+    for key, value in server_details.items():
+        print("Alias:", key, "\nIP-Address:", value)
+
+server_details = {
+    "Unix-Server": '10.20.30.40',
+    "Linux-Server": '10.20.55.45',
+    "Winx-Server": '10.45.65.45',
+    "Aix-Server": '10.42.98.78'
+}
+
+print_server_details(server_details)
