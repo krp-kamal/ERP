@@ -2,6 +2,11 @@
 Author: Ms Rya
 Version: 3.10
 '''
+
+def print_fruits(fruit_list):
+    for fruit in fruit_list:
+        print(fruit)
+
 fruits = ['apple', 'banana', 'cherry']
-for fruit in fruits:
-    print(fruit)
+print_fruits(fruits)
+
