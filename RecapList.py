@@ -2,23 +2,22 @@
 Author: Ms Rya
 Version: 3.10
 '''
-fruits = ['apple', 'banana', 'cherry']
 
-'''
-index
-'''
-print(fruits[0])  
-print(fruits[1])  
+def manage_fruits():
+    fruits = ['apple', 'banana', 'cherry']
 
-'''
- Modifying
-'''
-fruits[2] = 'orange'
-print(fruits)
+    print("Initial fruits:")
+    print(fruits[0])  
+    print(fruits[1]) 
 
-'''
-Appending
-'''
+    # Modifying
+    fruits[2] = 'orange'
+    print("After modifying the third fruit:")
+    print(fruits)
 
-fruits.append('grape')
-print(fruits)
+    # Appending
+    fruits.append('grape')
+    print("After appending a new fruit:")
+    print(fruits)
+
+manage_fruits()
