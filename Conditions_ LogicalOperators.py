@@ -17,6 +17,7 @@ def my_sleep():
         result = "You are neither well rested nor productive."
     
     print(result)
+    return result
     
 my_sleep()
 
