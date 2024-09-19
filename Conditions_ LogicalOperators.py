@@ -3,7 +3,7 @@ Author: Ms Rya
 Version: 3.10
 '''
 
-def sleep():
+def my_sleep():
     sleep = int(input("Enter hours of sleep last night: "))
     score = int(input("Enter your productivity score (1-10): "))
 
@@ -18,6 +18,6 @@ def sleep():
     
     print(result)
     
-sleep()
+my_sleep()
 
 
