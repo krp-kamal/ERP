@@ -2,6 +2,11 @@
 Author: Ms Rya
 Version: 3.10
 '''
-a = open('Writefile', 'a')
-a.write('jack\n')
-a.close()
+
+def append_to_file(filename, text):
+    with open(filename, 'a') as file:
+        file.write(text + '\n')
+
+filename = '/Users/kamalperumal/Downloads/Writefile'
+text_to_append = 'jack'
+append_to_file(filename, text_to_append)
