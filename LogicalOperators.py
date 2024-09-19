@@ -2,22 +2,27 @@
 Author: Ms Rya
 Version: 3.10
 '''
-a = True
-b = False
 
-x = 5
-y = 10
-z = 20
+def logical_operations():
+    a = True
+    b = False
 
-and_operation = a and b  
-or_operation = a or b    
-not_operation = not a    
+    x = 5
+    y = 10
+    z = 20
 
-combined_oper = (x < y) and (y < z)  
-or_combined = (x > y) or (y < z)          
+    and_operation = a and b  
+    or_operation = a or b    
+    not_operation = not a    
 
-print("a and b:", and_operation)
-print("a or b:", or_operation)
-print("not a:", not_operation)
-print("(x < y) and (y < z):", combined_oper)
-print("(x > y) or (y < z):", or_combined)
+    combined_oper = (x < y) and (y < z)  
+    or_combined = (x > y) or (y < z)          
+
+    print("a and b:", and_operation)
+    print("a or b:", or_operation)
+    print("not a:", not_operation)
+    print("(x < y) and (y < z):", combined_oper)
+    print("(x > y) or (y < z):", or_combined)
+
+
+logical_operations()
