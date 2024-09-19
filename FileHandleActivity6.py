@@ -2,8 +2,11 @@
 Author: Ms Rya
 Version: 3.10
 '''
-# reads every line in the file.#
-robj= open('/Users/kamalperumal/Downloads/r3.log','r')
-print(robj.readline())
-print(robj.readline())
-robj.close()
+
+def print_file_lines(file_path):
+    with open(file_path, 'r') as robj:
+        for line in robj:
+            print(line)
+
+file_path = '/Users/kamalperumal/Downloads/r3.log'
+print_file_lines(file_path)
