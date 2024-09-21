@@ -3,7 +3,10 @@ Author: Ms Rya
 Version: 3.10
 '''
 
-fruits = ["apple", "banana", "cherry"]
-fruits.insert(1, "orange")  # Insert 'orange' at index 1
+def insert_fruit(fruits, fruit_to_insert, index):
+    fruits.insert(index, fruit_to_insert)
+    return fruits
 
-print(fruits)
+fruits = ["apple", "banana", "cherry"]
+updated_fruits = insert_fruit(fruits, "orange", 1)
+print(updated_fruits)
