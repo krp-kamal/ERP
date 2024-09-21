@@ -2,9 +2,11 @@
 Author: Ms Rya
 Version: 3.10
 '''
+
+def remove_item(inventory, item):
+    item_count = inventory.pop(item, 'Item not found')
+    print(f"{item.capitalize()} count:", item_count)
+    print("Inventory after removing item:", inventory)
+  
 inventory = {'sword': 1, 'shield': 1, 'potion': 5}
-
-potion_count = inventory.pop('potion', 'Item not found')
-print("Potion count:", potion_count)  
-
-print("Inventory after removing potion:", inventory)
+remove_item(inventory, 'potion')
