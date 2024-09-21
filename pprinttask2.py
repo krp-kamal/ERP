@@ -2,21 +2,31 @@
 Author: Ms Rya
 Version: 3.10
 '''
-ICR={}  
 
-ICR['ICR_NO']=[]
-ICR['Sender_name']=[]
-ICR['Subject']=[]
-ICR['SenderDate']=[]
-ICR['ReceivedBy']=[]
+def create_icr_record():
+    ICR = {
+        'ICR_NO': [],
+        'Sender_name': [],
+        'Subject': [],
+        'SenderDate': [],
+        'ReceivedBy': []
+    }
+
+    return ICR
+
+def add_icr_entry(ICR, icr_no, sender_name, sender_date, subject, received_by):
+    ICR['ICR_NO'].append(icr_no)
+    ICR['Sender_name'].append(sender_name)
+    ICR['SenderDate'].append(sender_date)
+    ICR['Subject'].append(subject)
+    ICR['ReceivedBy'].append(received_by)
+
+ICR = create_icr_record()
+
 print(type(ICR))
 print(ICR.keys())
 
-ICR['ICR_NO'].append(101)
-ICR['Sender_name'].append('IBM')
-ICR['SenderDate'].append('1st Aug 2024')
-ICR['Subject'].append('Conference')
-ICR['ReceivedBy'].append('Mr.Arun')
+add_icr_entry(ICR, 101, 'IBM', '1st Aug 2024', 'Conference', 'Mr.Arun')
 
 print(type(ICR))
 print(ICR.keys())
