@@ -1,3 +1,7 @@
+'''
+Author: Ms Rya
+Version: 3.10
+'''
 def netInfo():# Initialize an empty dictionary to store the key-value pairs from the file
     Lines = {}
     with open('/Users/kamalperumal/Downloads/ifcfg.conf', 'r') as file:# Open the 'ifcfg.conf' file in read mode
